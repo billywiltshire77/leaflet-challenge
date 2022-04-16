@@ -111,11 +111,11 @@ function createMap(earthquakes) {
         let labels = [];
 
         // Add the minimum and maximum.
-        let legendInfo = "<h1>Legend</h1>" +
-        "<div class=\"labels\">" +
+        let legendInfo = "<h1 class= \"text-center\">Meters Deep</h1>" +
+            "<div class=\"labels\">" +
             "<div class=\"min\">" + limits[0] + "</div>" +
             "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
-        "</div>"
+            "</div>";
 
         div.innerHTML = legendInfo;
 
